@@ -1,0 +1,8 @@
+feat(monorepo): inicia PO Tracker como fork da Sprint Session com equipe Insper
+
+Este commit consolida a versão limpa e renomeada do projeto originalmente desenvolvido durante a Sprint Session com colegas do Insper.
+
+• Estrutura monorepo com backend (Flask) e frontend (React + Vite)
+• Refatoração de branding e identidade visual (removido o nome HP)
+• Mantém funcionalidades de rastreamento de ordens de compra, comentários, login JWT, e dashboards interativos
+• Histórico anterior foi removido por razões de licenciamento e compliance

@@ -1,0 +1,74 @@
+/* src\features\messages\styles\editor.css */
+
+/* Estilos para o editor TipTap */
+.ProseMirror {
+  min-height: 200px;
+  outline: none;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #adb5bd;
+  pointer-events: none;
+  height: 0;
+}
+
+.ProseMirror:focus {
+  outline: none;
+}
+
+/* Estilos de lista */
+.ProseMirror ul,
+.ProseMirror ol {
+  padding-left: 1.75rem; /* ligeiramente maior para alinhamento mais claro */
+  margin: 0.75rem 0;
+}
+
+.ProseMirror ul {
+  list-style-type: disc;
+}
+
+.ProseMirror ol {
+  list-style-type: decimal;
+}
+
+.ProseMirror li {
+  margin: 0.35rem 0;
+  line-height: 1.6;
+  padding-left: 0.25rem;
+}
+
+/* Melhor aparência para bullets e números */
+.ProseMirror ul li::marker {
+  color: #6b7280; /* gray-500 do Tailwind */
+  font-size: 0.9em;
+}
+
+.ProseMirror ol li::marker {
+  color: #6b7280;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+/* Estilos de formatação */
+.ProseMirror strong {
+  font-weight: 600;
+}
+
+.ProseMirror em {
+  font-style: italic;
+}
+
+/* Espaçamento entre parágrafos */
+.ProseMirror p {
+  margin: 0.5rem 0;
+}
+
+.ProseMirror p:first-child {
+  margin-top: 0;
+}
+
+.ProseMirror p:last-child {
+  margin-bottom: 0;
+}

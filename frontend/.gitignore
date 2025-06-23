@@ -1,0 +1,62 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+out/
+
+# Vite cache
+.vite/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Env files
+.env
+.env.*.local
+
+# OS junk
+*.local
+*.pid
+*.seed
+*.pid.lock
+
+# Optional lockfiles
+.pnp.*
+.pnpm-debug.log
+
+# Tailwind IntelliSense server cache
+.tailwind/
+
+# Coverage (caso use Jest)
+coverage/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Mac/Linux hidden files
+*.swp
+*.bak
+*~
+
+.vercel

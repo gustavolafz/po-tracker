@@ -1,0 +1,27 @@
+# --- Core do Flask
+Flask
+Flask-JWT-Extended
+flask_cors
+python-dotenv
+
+# --- Segurança e autenticação
+bcrypt
+passlib
+python-jose
+email-validator
+
+# --- Utilitários e validações
+pydantic[email]
+pytz
+requests
+
+# --- Banco de dados
+sqlalchemy
+mysql-connector-python
+pymongo
+dnspython
+
+# --- Testes
+pytest
+
+gunicorn

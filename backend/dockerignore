@@ -1,0 +1,28 @@
+# Ambiente virtual
+venv/
+.env
+.env.*
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Configs de IDE
+.vscode/
+.idea/
+
+# Git
+.git
+.gitignore
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testes
+tests/
+pytest_cache/
